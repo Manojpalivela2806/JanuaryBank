@@ -1,0 +1,25 @@
+							****This is just my reference****
+This is a small stand alone java project  (by Maven quickstart)
+
+JDBC concept used in this project
+
+MySql database is used.
+
+In that database 3 tables are created Admin table, bank user details, and statement table
+
+AdminTable consists of fields [ Admin_Id (Int(PK,NN), Admin_Name (string), Admin_Email_Id (String(NN), Admin_password (String(NN)]
+
+Bank user details consists of fields [User_Id(INT(PK,NN,AI), User_Name(String(NN), User_BankEmail_Id(String(NN,UQ), User_Email_Id(String(NN,UQ), User_Passwordl(INT(NN,UQ), User_Gender(String(NN), User_Address(String(NN), User_Date_Of_Birth(Date(NN), User_Account_Number(Int(NN,UQ), User_Amount(Double), User_Mobile_Number(varchar(NN,UQ), IFSC_Code(NN)]
+
+Statement table consists of fields [Status(String), DateOfTransation(Date), TypeOfPayment(String), TransationId(Int), Amount(String), UserId(Int), BankAccount(Int), TransactionTime(Time), RemainingBalance(String)]
+
+Admin table only consists of one record i.e..,admin with name, mailid and password .
+
+admin can create account for user by taking basic details,and 
+admin can display all the users(basic details) by hiding password and 
+admin can update the details of the user by using user account number.
+admin can delete the user bank account with the help of user account number
+
+when comming to user he can do operations like credit,debit, check statement,balance enquery,changing MobileNumber, and Mobile to Mobile transaction. by logging with respected bankmailid and password.
+
+in this project i take runtime values so i user prepare statment  mostly..
