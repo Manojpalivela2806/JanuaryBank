@@ -1,4 +1,4 @@
-							****This is just my reference****
+							****This is just for my reference****
 This is a small stand alone java project  (by Maven quickstart)
 
 JDBC concept used in this project
